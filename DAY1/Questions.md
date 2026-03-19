@@ -1,54 +1,87 @@
-🔷 1. Structure Understanding
+🔷 1. Basic Page Structure
 
-Explain the role of the following HTML tags used in the project:
+Write HTML code to create a webpage with:
 
-<header>
+A title in the browser tab
 
-<nav>
+One heading
 
-<main>
+One paragraph
 
-<div>
+🔷 2. Image + Link
 
-👉 Also explain why semantic tags are preferred over normal <div> tags.
+Create a webpage that:
 
-🔷 2. CSS Linking
+Displays an image
 
-How is external CSS linked to an HTML file?
-Explain why using external CSS is better than inline CSS in real-world projects.
+When clicked, opens a website in a new tab
 
-🔷 3. Box Model Concept
+🔷 3. Lists Practice
 
-Describe the CSS box model in detail.
-Using the project as reference, explain how margin, padding, and border affect layout.
+Write code to create:
 
-🔷 4. Flexbox Application
+One unordered list of 3 items
 
-In the project, Flexbox is used for layout.
+One ordered list of 3 steps
 
-What is Flexbox?
+🔷 4. Table Creation
 
-Explain justify-content and align-items
+Create a table with:
 
-What will happen if display: flex is removed?
+3 columns → Name, Age, Role
 
-🔷 5. Positioning
+2 rows of data
 
-Explain the difference between:
+🔷 5. Form Design
 
-position: relative
+Create a form with:
 
-position: absolute
+Name input
 
-👉 Give an example from the project where these are used together.
+Email input
 
-🔷 6. Practical Task (Important 🔥)
+Password input
 
-Modify the project and:
+Submit button
 
-Change the theme color (e.g., from dark to light)
+🔷 6. CSS Styling Basics
 
-Add one new navigation link
+Write CSS to:
 
-Add one new button with hover effect
+Change background color of page
 
+Set font size of heading
+
+Add padding and margin to a div
+
+🔷 7. Box Model Practice
+
+Create a div and apply:
+
+Padding
+
+Border
+
+Margin
+
+👉 Observe spacing differences
+
+🔷 8. Flexbox Layout
+
+Create:
+
+A container with 3 boxes
+
+Use Flexbox to align them in a row
+
+Add spacing between them
+
+🔷 9. Grid Layout
+
+Create a grid with:
+
+3 columns
+
+3 boxes
+
+Equal spacing
