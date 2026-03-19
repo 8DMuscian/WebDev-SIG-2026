@@ -1,0 +1,140 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+
+/* Navigation (Flexbox) */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #222;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Cards (Flexbox) */
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Box Model */
+.box {
+    background: #222;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+}
+
+button {
+    background: red;
+    border: none;
+    color: white;
+}
+
+/* Position */
+.relative-box {
+    position: relative;
+    height: 100px;
+    background: gray;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Overflow */
+.overflow-box {
+    height: 60px;
+    overflow: auto;
+    background: #333;
+    padding: 10px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid div {
+    background: red;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+}
