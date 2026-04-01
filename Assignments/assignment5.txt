@@ -1,0 +1,59 @@
+####  MONGODB  ####(Perform this in mongodb)
+
+1. Basic Document Insert
+
+Using MongoDB:
+
+Create a collection students
+Insert one document with fields: name, age, course
+
+2. Insert Multiple Documents
+Insert 5 student records using insertMany()
+
+3. Find Data
+Write queries to:
+Get all students
+Get students with age > 20
+Get student by name
+
+4. Update Document
+Update a student’s course using:
+updateOne()
+
+5. Delete Document
+Delete:
+One student by name
+All students with age < 18
+
+6. Schema Creation (Mongoose)
+
+Using Mongoose:
+
+Create a schema for User:
+name (String)
+email (String)
+age (Number)
+
+7. Data Modeling (Embedded)
+
+Design a schema for:
+
+A Blog with:
+title
+content
+embedded comments (array of objects)
+
+8. Data Modeling (Referencing)
+
+Design 2 schemas:
+
+User
+Post (reference user using userId)
+
+9. Validation in Schema
+
+Modify schema to:
+
+Make email required
+Add min value for age
+Add default value for a field (e.g., role = "user")

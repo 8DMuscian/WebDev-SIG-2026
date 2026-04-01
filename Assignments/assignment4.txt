@@ -1,0 +1,80 @@
+####   REACT   ####
+
+1. JSX Basics
+
+Create a React component that:
+
+Displays your name, college, and course using JSX
+
+2. Components
+
+Create:
+
+A Header component → displays title
+A Footer component → displays copyright
+Use both inside App.js
+
+3. Props
+
+Create a component:
+
+function Greeting(props) { }
+Pass name as prop and display: "Hello, Pushkar!"
+
+4. Conditional Rendering
+
+Create a component that:
+
+Shows "Logged In" if isLoggedIn = true
+Otherwise shows "Please Login"
+
+5. Event Handling
+
+Create a button:
+
+On click → show alert "Button Clicked!"
+
+6. useState Hook
+
+Create a counter app:
+
+Button Increment
+Button Decrement
+Display current count
+
+7. useEffect Hook
+
+Create a component:
+
+When page loads → print "Component Mounted" in console
+When count changes → print "Count Updated"
+
+8. useRef Hook
+
+Create:
+
+An input field
+A button → when clicked, focus the input using useRef
+
+9. useContext Hook
+
+Create:
+
+A UserContext
+Pass a username from parent to child without props
+Display username in child component
+
+10. useMemo + Routing
+
+Do two small tasks:
+
+Part A (useMemo)
+Create a function that calculates square of a number
+Use useMemo to avoid recalculating unless number changes
+
+Part B (Routing)
+
+Using React Router:
+
+Create 2 pages: Home and About
+Add navigation links between them

@@ -1,0 +1,92 @@
+#######   JAVASCRIPT    ######
+
+1. Datatypes & Variables
+
+Write a program that:
+
+Declares variables of different datatypes (number, string, boolean, object, array)
+Prints their values and types using typeof
+
+2. Operators & Conditional Statements
+
+Write a program that:
+
+Takes two numbers as input
+Prints:
+Sum, Difference, Product
+Whether the first number is greater, smaller, or equal to the second
+
+3. Loops
+
+Write a program that:
+
+Prints numbers from 1 to 50
+Prints only even numbers using a loop
+
+4. Arrays
+
+Write a program that:
+
+Takes an array of numbers
+Finds:
+Maximum value
+Minimum value
+Sum of all elements
+
+5. Functions (Basic)
+
+Write a function:
+
+function isPrime(num) { }
+Returns whether a number is prime or not
+
+6. Advanced Functions (Arrow + Higher Order)
+
+Write a program that:
+
+Uses map() to double all elements in an array
+Uses filter() to keep only even numbers
+
+7. Callback Functions
+
+Write a function:
+
+function processNumber(num, callback) { }
+Pass different callbacks:
+One that squares the number
+One that cubes the number
+
+8. Promises & Async/Await
+
+Create a function that:
+
+Returns a promise that resolves after 2 seconds with a message "Task completed"
+Use async/await to print the result
+
+9. DOM Manipulation + Event Listeners
+
+Create a simple webpage:
+
+A button and a paragraph
+On button click:
+Change text of paragraph
+Change its color
+
+10. Event Loop + Reflow/Repaint Concept (Practical)
+
+Write code that:
+
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Inside setTimeout");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("Inside Promise");
+});
+
+console.log("End");
+
+Predict and explain output ofabove code/
+Modify DOM inside a loop and observe performance (reflow/repaint)

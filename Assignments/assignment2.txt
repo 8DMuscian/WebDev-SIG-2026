@@ -1,0 +1,42 @@
+Solve this using tailwind css
+1.Create a Simple Button
+Task:
+• Blue background
+• White text
+• Padding
+• Rounded corner.
+
+2. Create a Card
+Task:
+• White card
+• Shadow
+• Padding
+• Rounded corners
+Inside:
+• Title
+• Description
+
+3. Navbar Design
+Task:
+• Logo on left
+• Menu on right
+• Use flex
+• Bg-black
+
+4. Colored Boxes
+Create 3 boxes:
+• Red, Green, Blue
+• Same size
+• Add spacing between them
+
+5. Card with Image
+Task:
+• Image on top
+• Title + description below
+• Shadow + rounded corners
+
+6.3-cards
+Task:
+• Make 3 cards of same color
+• Add hover effect in that
+• Give name as card-1,card-2,card-3 at centre 
